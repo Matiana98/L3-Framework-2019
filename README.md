@@ -1,4 +1,18 @@
 # Support module L3
+## Exercices
+### Exo 1.1
+Ajoutez une deuxième route "app_disque_ref". Cette deuxième route devra déclencher la méthode "info" d'un nouveau contrôleur 
+"DisqueController". Cette route prend en charge les URLs de type /disque/info/xxxx ou xxxx est une chaîne de caractères 
+contenant une lettre Majuscule suivi de 4 chiffres. Exemple /disque/info/A2345. Pour le moment cette méthode renvoi juste 
+un nouvel objet Symfony\Component\HttpFoundation\Response affichant uniquement les 4 chiffres de l'URL.
+### Exo 1.2
+Après avoir créé votre nouveau contrôleur ```DisqueController``` et la route associée. Nous allons nous intéresser 
+aux différentes écritures possibles de vos routes.
+Dans cet exercice réécrivez votre nouvelle route en php 
+### Exo 1.3
+Récrire la configuration de toutes routes au format 'annotation', vous devez pour cela installer le paquet 
+```annotations``` gérant les annotations. 
+### Environnement de dev
 La première étape a éffectué consiste à installer votre environnement de développement.
 Il y a plusieurs façon de le faire, les critères principaux à retenir sont :
 - Isolation les actions et développement que vous faites ne doivent pas perturber (poluer) le reste de votre système
